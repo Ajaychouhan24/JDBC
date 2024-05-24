@@ -32,6 +32,7 @@ public class Insert extends HttpServlet {
 			preparedStatement.setString(2, po.getName());
 			
 			System.out.println("Record Inserted");
+			System.out.println("Github Done");
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
